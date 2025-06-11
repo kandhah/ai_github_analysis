@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/*
+frontend/node_modules/*
+npm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+/build
+/dist
+/out
+frontend/build/
+frontend/dist/
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+.npm
+.eslintcache
+
+# Temporary
+tmp/
+temp/
